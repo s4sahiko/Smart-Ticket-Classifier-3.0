@@ -25,7 +25,7 @@ Integrated with Slack for Real Time Communication and Backend Support.
 - **Analytics Part for the improvement**
 - **Real time Screen Optimization**
 - **Integrated Slack for Real time Backend support**
-- **multilingual supports 10+ different languages**
+- **Multilingual supports 10+ different languages**
 
 ---
 # What's New?
