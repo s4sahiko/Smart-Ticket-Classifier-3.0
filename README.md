@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![Repo Size](https://img.shields.io/github/repo-size/s4sahiko/Ai-Ticket-Classifier)
 ![Last Commit](https://img.shields.io/github/last-commit/s4sahiko/Ai-Ticket-Classifier)
-![Dashboard Preview](assests/dashboard.png)
+![Dashboard Preview](assets/dashboard.png)
 
 
 ---
@@ -30,11 +30,11 @@ Integrated with Slack for Real Time Communication and Backend Support.
 # What's New?
 
 1. ## Analytics Part for the improvement
-     ![Solution Preview](assests/analytics.png)
+     ![Solution Preview](assets/analytics.png)
 2. ## Real time Screen Optimization
-   ![Filter Preview](assests/rtso.png)
+   ![Filter Preview](assets/rtso.png)
 3. ## Integrated Slack for Real time Backend support
-    ![Filter Preview](assests/slack.png)
+    ![Filter Preview](assets/slack.png)
    
 ---
 
@@ -74,34 +74,13 @@ Or replace it with your own dataset and update file paths in the scripts.
 **Uplaod the ticket and Enjoy the saved time!**
 
 ---
-Training
+For Slack Integration 
 ---
+1. Paste the slack **channel ID** in app.py SLACK_CHANNEL_ID = "C0XXXXXXX"
+   
+2. Open terminal (in virtual env) paste your slack token (export SLACK_BOT_TOKEN=YOUR TOKEN)
 
-**Fine-tune the Transformer model using**
-    
-    python trainer.py
-
-You can customize hyperparameters (learning rate, epochs, etc.) inside the script.
-
----
-Classification
----
-
-**After training, classify tickets in real time**
-    
-    python app.py
-
-It reads ticket text and outputs predicted categories.
-
----
-Dashboard & Reporting
----
-
-**Generate performance reports and content gap analysis**
-    
-    python reporting_dashboard.py
-    
-Optionally, use the **knowledge_base_with_embeddings.csv** file to enhance classification accuracy.
+3. Run app.py & gui_dashboard.py
 
 ---
 Example Workflow
@@ -115,7 +94,9 @@ Example Workflow
 
 4. The result appears in the GUI or CLI With **Real Time Solution Recommendation**.
 
-5. Analytics and reports are generated automatically (**Improved**).
+5. Analytics and reports are generated automatically.
+
+6. Slack messaged can be seen from notification pannel. 
 
 ---
 Tech Stack
