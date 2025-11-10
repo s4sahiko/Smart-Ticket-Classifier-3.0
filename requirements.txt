@@ -1,0 +1,17 @@
+streamlit
+flask
+requests
+pandas
+numpy
+transformers
+torch
+matplotlib
+seaborn
+datasets
+evaluate
+scikit-learn
+gunicorn
+gspread
+nltk
+slack_sdk
+plotly
