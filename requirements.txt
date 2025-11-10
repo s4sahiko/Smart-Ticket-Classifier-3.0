@@ -1,17 +1,3 @@
-streamlit
-flask
-requests
-pandas
-numpy
-transformers
-torch
-matplotlib
-seaborn
-datasets
-evaluate
-scikit-learn
-gunicorn
-gspread
-nltk
-slack_sdk
-plotly
+version https://git-lfs.github.com/spec/v1
+oid sha256:1377b179ba556b9a1723d3f4ed8e682948ef652599b149f6faf1110d815b26cb
+size 145
