@@ -105,7 +105,7 @@ Tech Stack
 
 **Language**: Python
 
-**Libraries**: Transformers, Pandas, NumPy, Matplotlib etc.
+**Libraries**: Transformers,NumPy, Matplotlib etc.
 
 **Frameworks**: PyTorch
 
